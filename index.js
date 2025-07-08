@@ -3,7 +3,7 @@ import express from "express";
 import fetch from "node-fetch";
 
 const app = express();
-const PORT = 5000;
+const PORT = 10000;
 
 app.use(express.static("public")); // for frontend
 
